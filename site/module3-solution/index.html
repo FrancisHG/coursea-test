@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -12,17 +13,65 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title>Boostrap Starter Page</title>
+    <title>Food, LLC</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
-<body>
 
-  <h1>Hello Coursera!</h1>
+  <body>
+    <header class="brand-header">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-dropdown" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <span class="navbar-brand brand-header-home" href="#">Food, LLC</span>
+          </div>
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
-</body>
+          <div class="collapse navbar-collapse" id="collapse-dropdown">
+            <ul class="nav navbar-nav visible-xs">
+              <li class="text-center">Chicken</li>
+              <li role="separator" class="divider"></li>
+              <li class="text-center">Beef</li>
+              <li role="separator" class="divider"></li>
+              <li class="text-center">Sushi</li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header>
+    
+    <h1 class="text-center">Our Menu</h1>
+    <div class="container-fluid">
+
+      <div class="row">
+
+        <div class="col-md-12 col-sm-12 col-xs-12" id="chicken">
+            <p class="content-title">Chicken</p>
+            <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit odio gravida ipsum porttitor, nec tempus purus iaculis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut orci dui, venenatis in rhoncus et, convallis vitae purus. Duis ac sollicitudin ipsum. Proin id nibh sit amet turpis tincidunt gravida sit amet a nunc. Donec et dolor et sapien vehicula porta. Fusce ut justo et justo luctus viverra eu vitae risus. Donec molestie purus consequat neque placerat porttitor. Proin vel sagittis risus. Aliquam mollis hendrerit sapien, et accumsan mi ultrices a. Fusce feugiat felis eget pulvinar pretium. Donec imperdiet ullamcorper erat. Nam interdum metus at metus scelerisque interdum. Morbi rhoncus massa metus, vitae lacinia quam interdum id. In urna mi, pulvinar et efficitur eget, vestibulum nec mauris.</p>
+        </div>
+
+        <div class="col-md-12 col-sm-12 col-xs-12" id="beef">
+            <p class="content-title">Beef</p>
+            <p class="content">Praesent dignissim lectus ac sagittis vestibulum. Suspendisse ac ipsum nunc. Maecenas in molestie elit. Vestibulum faucibus augue dui, id vehicula quam volutpat vitae. Proin molestie justo at turpis dictum condimentum. Vestibulum a scelerisque leo. Maecenas at congue erat, sit amet luctus arcu. Aliquam venenatis venenatis tellus, vel venenatis est porttitor eu. Morbi vitae sem sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus luctus quam est, eu cursus tortor accumsan sed. In vitae velit eget risus gravida lobortis.
+            </p>
+        </div>
+
+        <div class="col-md-12 col-sm-12 col-xs-12" id="sushi">
+            <p class="content-title">Sushi</p>
+            <p class="content">Duis dignissim quis sapien sed maximus. In semper laoreet augue, sit amet rhoncus nisi viverra in. Fusce cursus dignissim justo, quis fermentum nibh suscipit vel. Maecenas sed placerat ante. Proin blandit consectetur aliquam. In elementum arcu vitae nisl lacinia interdum quis non risus. Etiam et eleifend enim. Praesent sed ullamcorper sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer id ipsum eget tellus interdum imperdiet quis non quam. Cras quis vehicula metus, eu tempor arcu. Mauris in tellus lacus. Mauris nec feugiat orci.
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
